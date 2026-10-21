@@ -254,7 +254,7 @@ button:hover{
     }
     
     .pricing-card--professional{
-        padding-block: 3.75rem;
+        
         position: relative;
         z-index: 2;
         transform: scale(1.05);
