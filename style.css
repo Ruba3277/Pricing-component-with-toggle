@@ -258,7 +258,7 @@ button:hover{
         position: relative;
         z-index: 2;
         transform: scale(1.05);
-        padding-block: 3.75rem;
+        padding-block: 3rem;
     }
      .pricing-card--basic,
     .pricing-card--master {
