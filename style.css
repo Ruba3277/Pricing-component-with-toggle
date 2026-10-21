@@ -255,7 +255,17 @@ button:hover{
     
     .pricing-card--professional{
         padding-block: 3.75rem;
+        position: relative;
+        z-index: 2;
+        transform: scale(1.05);
+        padding-block: 3.75rem;
     }
+     .pricing-card--basic,
+    .pricing-card--master {
+        position: relative;
+        z-index: 1;
+    }
+
     .pricing-card--professional .pricing-card__title{
         color: var(--color-toggle-slider-bg-bg);
     }
