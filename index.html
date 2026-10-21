@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <header></header>
+  <main class="pricing-component">
+    <section class="pricing-header">
+      <h1>Our Pricing</h1>
+      <div class="billing-toggle">
+        <span id="annually-label" class="plan-period">Annually</span>
+        <label class="toggle-switch">
+          <input type="checkbox" id="billing-period" role="switch" aria-label="Billing period"/>
+          <span class="toggle-slider" aria-hidden="true"></span>
+        </label>
+        <span id="monthly-label" class="plan-period">Monthly</span>
+      </div>
+    </section>
+    <seciton class="pricing-cards">
+      <article class="pricing-card pricing-card--basic">
+        <h2 class="pricing-card__title">Basic</h2>
+        <h3 class="pricing-card__price">$<span class="price-value">199.99</span></h3>
+        <div class="pricing-card__features">
+          <p>500 GB Storage</p>
+          <p>2 Users Allowed</p>
+          <p>Send up to 3 GB</p>
+        </div>
+        <button type="button" class="learn-more-button">Learn More</button>
+      </article>
+      <article class="pricing-card pricing-card--professional">
+        <h2 class="pricing-card__title">Professional</h2>
+        <h3 class="pricing-card__price">$<span class="price-value">249.99</span></h3>
+        <div class="pricing-card__features">
+          <p>1 TB Storage</p>
+          <p>5 Users Allowed</p>
+          <p>Send up to 10 GB</p>
+        </div>
+        <button type="button" class="learn-more-button">Learn More</button>
+      </article>
+      <article class="pricing-card pricing-card--master">
+        <h2 class="pricing-card__title">Basic</h2>
+        <h3 class="pricing-card__price">$<span class="price-value">399.99</span></h3>
+        <div class="pricing-card__features">
+          <p>2 TB Storage</p>
+          <p>10 Users Allowed</p>
+          <p>Send up to 20 GB</p>
+        </div>
+        <button type="button" class="learn-more-button">Learn More</button>
+      </article>
+    </seciton>
+    
+  </main>
+  <footer></footer>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
+<!--Our Pricing
+  Annually
+  Monthly
+
+  Basic
+  &dollar;19.99
+  &dollar;199.99
+  500 GB Storage
+  2 Users Allowed
+  Send up to 3 GB
+  Learn More
+
+  Professional
+  &dollar;24.99
+  &dollar;249.99
+  1 TB Storage
+  5 Users Allowed
+  Send up to 10 GB
+  Learn More
+
+  Master
+  &dollar;39.99
+  &dollar;399.99
+  2 TB Storage
+  10 Users Allowed
+  Send up to 20 GB
+  Learn More
+  -->
